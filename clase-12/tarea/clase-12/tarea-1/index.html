@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tipos de cambios</title>
+  <style>
+    .oculto {
+      display: none;
+    }
+
+    li {
+      list-style: none;
+    }
+  </style>
+</head>
+
+<body>
+  <form action="#" class="form" id="form">
+    <input type="date" name="fecha" id="fecha">
+    <select name="moneda" id="moneda">
+      <option value="0">Selecciona una moneda</option>
+    </select>
+    <button type="submit" id="enviar">Enviar</button>
+  </form>
+
+  <section aria-labelledby="tipos-de-cambio" class="tipos-de-cambio oculto">
+    <h2 class="tipos-de-cambio__titulo"></h2>
+    <ul class="tipos-de-cambio__lista">
+    </ul>
+  </section>
+  <script src="index.js"></script>
+</body>
+
+</html>
